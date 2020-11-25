@@ -4,15 +4,14 @@ body {
 
 /* NAVBAR */
 .bl-navbar-default {
-  height: 80px;
+  /* height: 80px; */
   background-color: transparent;
 }
 
-.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
-  margin-right: 0;
-  margin-left: 0;
-  padding-top: 10px;
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse {
+  float: right;
 }
+
 
 .navbar-header .background-blue span:nth-child(1n+1){
   background-color: #005FFF;
@@ -40,6 +39,7 @@ body {
 
 .bl-nav {
   font-size: 12px;
+  margin-left: 80px;
 }
 
 /* END NAVBAR */
@@ -49,6 +49,35 @@ body {
   background-image: url(../img/sea-bg-live.svg);
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+h2
+
+section {
+  color: #fff;
+}
+
+section h2 {
+  font-size: 16px;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.get-started {
+  height: auto;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 5px;
+  margin-top: 15px;
+  padding: 10px 0;
+}
+
+h3 {
+  font-weight: 900;
+}
+
+.get-started span {
+  color: #005FFF
 }
 
 
@@ -83,6 +112,10 @@ body {
 }
 
 @media screen and (min-width: 993px) {
+  /* .bl-container {
+    width: 100%;
+  } */
+
   .bl-navbar-default {
     height: auto;
   }
