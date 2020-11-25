@@ -1,0 +1,20 @@
+/* NAVBAR */
+.bl-navbar-default {
+  height: 50px;
+  background-color: transparent;
+}
+
+.navbar-header .background-blue span:nth-child(1n+1){
+  background-color: #005FFF;
+  width: 15px;
+}
+
+.bl-navbar-toggle {
+ border: none;
+}
+
+.bl-navbar-brand img{
+  height: 30px;
+}
+
+/* END NAVBAR */
