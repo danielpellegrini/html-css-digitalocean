@@ -1,7 +1,11 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
 /* NAVBAR */
 .bl-navbar-default {
   height: 50px;
-  background-color: transparent;
+  /* background-color: transparent; */
 }
 
 .navbar-header .background-blue span:nth-child(1n+1){
@@ -17,4 +21,27 @@
   height: 30px;
 }
 
+.btn-link .bl-btn-link ul>li>a {
+  border: 1px solid #005FFF;
+  border-radius: 5px;
+  color: #005FFF;
+}
+
 /* END NAVBAR */
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 992px) {
+  .bl-navbar-toggle {
+    display: block;
+  }
+
+  .bl-navbar-header {
+    float: none;
+  }
+
+  .bl-nav {
+    display: none;
+  }
+}
+
+/* END MEDIA QUERIES */
