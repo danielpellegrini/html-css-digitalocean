@@ -44,6 +44,28 @@ body {
 
 /* END NAVBAR */
 
+/* MAIN CONTAINER */
+.background-img {
+  background-image: url(../img/sea-bg-live.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+/* END MAIN CONTAINER */
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* MEDIA QUERIES */
 @media screen and (max-width: 992px) {
   .bl-navbar-toggle {
