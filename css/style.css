@@ -56,7 +56,7 @@ h1, .designed-for-section h6, .arrows:hover {
   color: #031B4E;
 }
 
-main h1 {
+main h1, .customers-service h1 {
   color: #fff;
 }
 
@@ -138,7 +138,7 @@ h6 a {
 
 /* END ICONS SECTION */
 /* DEPLOY SECTION */
-.deploy-section  {
+.deploy-section, .business-section  {
   padding: 20px 40px;
 }
 
@@ -197,16 +197,41 @@ h6 a {
 /* END DESIGNED FOR SECTION */
 
 /* BUSINESS FEATURE SECTION */
-.business-section  {
-  padding: 80px;
-}
-
 .business-section div {
   padding: 10px;
 }
 
 /* END BUSINESS FEATURE SECTION */
 
+/* CUSTOMERS SERVICE SECTION */
+.customers-service {
+  background-color: #012FAD;
+}
+
+.customers-service h1 {
+  padding: 10px 10px;
+}
+
+.customers-service li {
+  display: flex;
+  align-items: center;
+  line-height: 40px;
+  position: relative;
+  border-bottom: 1px solid;
+}
+
+.customers-service li:last-of-type{
+  border-bottom: none;
+}
+
+.customers-service li a {
+  position: absolute;
+  right: 0;
+
+}
+
+
+/* END CUSTOMERS SERVICE SECTION */
 
 
 
