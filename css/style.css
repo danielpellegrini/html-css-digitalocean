@@ -45,22 +45,32 @@ body {
 /* END NAVBAR */
 
 /* MAIN CONTAINER */
+.bl-row {
+  padding: 40px 0;
+}
+
 .background-img {
   background-image: url(../img/sea-bg-live.svg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-h2
-
-section {
+section h1 {
   color: #fff;
+  font-weight: 600;
 }
 
 section h2 {
   font-size: 16px;
   line-height: 1.6;
   color: rgba(255, 255, 255, 0.7);
+}
+
+.get-started h3 {
+  font-weight: 900;
+  padding: 0 20px;
+  margin: 0;
+  line-height: 1.2;
 }
 
 .get-started {
@@ -72,31 +82,37 @@ section h2 {
   padding: 15px;
 }
 
-h3 {
-  font-weight: 900;
-}
-
-.get-started span {
+.get-started h3:nth-child(2) {
   color: #005FFF;
 }
 
 /* FORM */
 
 .bl-form-control {
-  height: 30px;
-  font-size: 10px;
+  height: 25px;
+  font-size: 8px;
+  position: relative;
+  box-shadow: 1px 1px 4px 1px #ddd;
 }
-
-
 
 .fa-google {
   background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
   -webkit-background-clip: text;
-  background-clip: text;
   color: transparent;
   -webkit-text-fill-color: transparent;
-  float: left;
+  position: absolute;
+  top: 4px;
+  left: 5px;
 }
+
+.bl-form h6 {
+  font-size: 8px;
+}
+
+h6 a {
+  text-decoration: underline;
+}
+
 
 
 /* END FORM */
@@ -117,7 +133,7 @@ h3 {
 
 
 /* MEDIA QUERIES */
-@media screen and (max-width: 992px) {
+@media screen and (min-width: 768px) and (max-width: 1200px) {
   .bl-navbar-toggle {
     display: block;
   }
