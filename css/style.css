@@ -52,7 +52,11 @@ body {
   background-size: cover;
 }
 
-section h1 {
+h1, .designed-for-section h6, .arrows:hover {
+  color: #031B4E;
+}
+
+main h1 {
   color: #fff;
 }
 
@@ -110,7 +114,7 @@ h6 a {
 /* END FORM */
 /* END MAIN CONTAINER */
 /* ICONS SECTION */
-.icons-section {
+.icons-section, .designed-for-section {
   background: #F3F5F9;
 }
 
@@ -118,7 +122,7 @@ h6 a {
   padding: 0;
 }
 
-.icons-section h3, .deploy-section p, li{
+.icons-section h3, .deploy-section p, li, .designed-for-section {
   color: #929DB4;
   font-size: 16px;
 }
@@ -135,6 +139,10 @@ h6 a {
 /* END ICONS SECTION */
 
 /* DEPLOY SECTION */
+.deploy-section {
+  padding: 20px 40px;
+}
+
 .deploy-section li{
   border-left: 1px solid;
   padding-left: 10px;
@@ -146,7 +154,52 @@ h6 a {
   width: 30px;
 }
 
+.list-unstyled li:last-child{
+  margin-bottom: 20px;
+}
+
 /* END DEPLOY SECTION */
+
+/* DESIGNED FOR SECTION */
+.droplet-img-container {
+  padding: 40px 10px 10px;
+}
+
+.designed-for-section {
+  padding-top: 40px;
+}
+
+.designed-for-section img {
+  width: 100%;
+}
+.arrows {
+  font-size: 60px;
+  font-weight: bolder;
+  padding: 0 20px;
+}
+
+.arrows:hover {
+
+}
+
+.dots-container ol{
+  padding: 50px 0 30px;
+}
+
+.dots-container li:hover {
+  background-color: #4285f4;
+}
+
+.dots {
+  width: 10px;
+  height: 10px;
+  border: 1px solid #4285f4;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+/* END DESIGNED FOR SECTION */
 
 
 
@@ -172,6 +225,12 @@ h6 a {
 
 
 /* MEDIA QUERIES */
+@media screen and (max-width: 768px) {
+  .arrows {
+    display: none;
+  }
+}
+
 @media screen and (min-width: 768px) and (max-width: 1200px) {
   .bl-navbar-toggle {
     display: block;
@@ -184,12 +243,23 @@ h6 a {
   .bl-nav {
     display: none;
   }
+  .designed-for-section img {
+    width: 50%;
+    /* padding: 60px 60px 10px; */
+  }
+
 }
 
 @media screen and (min-width: 993px) {
   .bl-navbar-default {
     height: auto;
   }
+
+  .designed-for-section img {
+    width: 50%;
+    /* padding: 60px 60px 10px; */
+  }
+
 }
 
 /* END MEDIA QUERIES */
