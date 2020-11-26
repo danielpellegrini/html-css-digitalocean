@@ -25,10 +25,11 @@ body {
   padding: 0;
 }
 
-.btn-link .bl-btn-link ul>li>a {
+li a .bl-btn-link {
   border: 1px solid #005FFF;
   border-radius: 5px;
   color: #005FFF;
+  background: #fff;
 }
 
 .navbar-nav>li>a {
@@ -37,7 +38,10 @@ body {
 
 .bl-nav {
   font-size: 12px;
-  margin-left: 80px;
+}
+
+.bl-btn {
+  border: 1px solid
 }
 
 /* END NAVBAR */
