@@ -64,7 +64,7 @@ h1, .designed-for-section h6, .arrows:hover {
   color: #031B4E;
 }
 
-main h1, .customers-service h1 {
+main h1, .customers-service h1, footer h5 {
   color: #fff;
 }
 
@@ -222,7 +222,6 @@ h6 a {
 
 .customers-service li {
   display: flex;
-  align-items: center;
   line-height: 40px;
   position: relative;
   border-bottom: 1px solid;
@@ -274,6 +273,35 @@ h6 a {
 /* END DEVELOPMENT TEAMS SECTION */
 
 /* FOOTER */
+footer {
+  background-color: #031C4E;
+}
+
+footer {
+  color: rgba(255, 255, 255, 0.5)
+}
+
+footer .fab {
+  margin: 10px 10px 15px 0;
+  font-size: 20px;
+}
+
+footer ul>li:first-of-type {
+  color: #fff;
+  font-size: 18px;
+}
+
+footer ul>li {
+  line-height: 1.8;
+}
+
+.bubble {
+
+}
+
+footer img {
+  height: 100%;
+}
 /* END FOOTER */
 
 
@@ -332,7 +360,10 @@ h6 a {
 
   .designed-for-section img {
     width: 50%;
-    /* padding: 60px 60px 10px; */
+  }
+
+  .sharky {
+    text-align: right;
   }
 }
 
