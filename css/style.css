@@ -105,13 +105,18 @@ section h2 {
 
 /* FORM */
 .bl-form-control {
-  height: 25px;
-  font-size: 8px;
+  height: 30px;
+  font-size: 12px;
   position: relative;
   box-shadow: 1px 1px 4px 1px #ddd;
 }
 
-.fa-google {
+.bl-form>.form-group:nth-child(3) button{
+  background-color: #579AFF;
+  color: #fff;
+}
+
+.fa-google::before {
   background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
   -webkit-background-clip: text;
   color: transparent;
@@ -119,10 +124,11 @@ section h2 {
   position: absolute;
   top: 4px;
   left: 5px;
+  font-size: 20px;
 }
 
 .bl-form h6 {
-  font-size: 8px;
+  font-size: 12px;
 }
 
 h6 a {
@@ -168,6 +174,14 @@ h6 a {
   padding-left: 10px;
   line-height: 2.3;
   font-weight: lighter;
+}
+
+.deploy-section li a {
+  text-decoration: none;
+}
+
+.deploy-section li:hover {
+  border-left: 3px solid #012FAD;
 }
 
 .deploy-section img {
