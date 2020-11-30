@@ -54,7 +54,6 @@ body {
 }
 
 /* END NAVBAR */
-
 /* MAIN CONTAINER */
 .pad {
   padding: 40px 0;
@@ -65,7 +64,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 
 .first-section h1 {
   font-size: 53px;
@@ -111,7 +109,7 @@ section h2 {
   box-shadow: 1px 1px 4px 1px #ddd;
 }
 
-.bl-form>.form-group:nth-child(3) button{
+.bl-form>.form-group:nth-child(3) button {
   background-color: #579AFF;
   color: #fff;
 }
@@ -137,7 +135,6 @@ h6 a {
 
 /* END FORM */
 /* END MAIN CONTAINER */
-
 /* ICONS SECTION */
 .icons-section, .designed-for-section {
   background: #F3F5F9;
@@ -162,7 +159,6 @@ h6 a {
 }
 
 /* END ICONS SECTION */
-
 /* DEPLOY SECTION */
 .deploy-section, .business-section {
   padding-right: 60px;
@@ -176,7 +172,7 @@ h6 a {
   font-weight: lighter;
 }
 
-.deploy-section li a {
+.deploy-section li a, h6 a {
   text-decoration: none;
 }
 
@@ -193,7 +189,6 @@ h6 a {
 }
 
 /* END DEPLOY SECTION */
-
 /* DESIGNED FOR SECTION */
 .designed-for-section p {
   font-size: 20px;
@@ -209,7 +204,7 @@ h6 a {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  font-size: 60px;
+  font-size: 50px;
 }
 
 .slider-arrow:hover {
@@ -226,11 +221,11 @@ h6 a {
 }
 
 .slider-arrow-left {
-  left: 0;
+  left: 20px;
 }
 
 .slider-arrow-right {
-  right: 0;
+  right: 20px;
 }
 
 .disabled {
@@ -259,14 +254,12 @@ h6 a {
 }
 
 /* END DESIGNED FOR SECTION */
-
 /* BUSINESS FEATURE SECTION */
 .business-section div {
   padding: 10px;
 }
 
 /* END BUSINESS FEATURE SECTION */
-
 /* CUSTOMERS SERVICE SECTION */
 .customers-service {
   background-color: #012FAD;
@@ -290,27 +283,41 @@ h6 a {
 .customers-service li a {
   position: absolute;
   right: 0;
+  color: #00CAD0;
 }
 
 .customers-service span {
   margin-left: 15px;
+
+}
+
+.customers-service span:first-child {
+  color: rgba(255, 255, 255, 0.9);
 }
 
 /* END CUSTOMERS SERVICE SECTION */
-
 /* DEVELOPMENT TEAMS SECTION */
-.development-teams {
-  width: 60%;
-  margin: 0 auto;
-  display: inline-block;
+.development-teams>.main-container {
+  width: 80%
+}
+
+.development-teams>.main-container>.slider-box>.slider-inner {
+  background-color: #fff;
 }
 
 .development-teams h6 {
   line-height: 0.5;
+  font-size: 16px;
 }
 
-.development-teams-container .arrows {
-  vertical-align: 60px;
+.development-teams>.main-container>.slider-box>.slider-inner img:first-child {
+  width: 50%;
+  padding: 20px 0;
+}
+
+.development-teams>.main-container>.slider-box>.slider-inner h6:nth-child(7) {
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .development-teams div img:nth-child(1n+2) {
@@ -323,7 +330,6 @@ h6 a {
 }
 
 /* END DEVELOPMENT TEAMS SECTION */
-
 /* FOOTER */
 .footer-row {
   padding-top: 50px;
@@ -375,7 +381,6 @@ footer img {
 
 
 /* END FOOTER */
-
 /* MEDIA QUERIES */
 @media screen and (min-width: 993px) {
   .bl-navbar-default {
@@ -435,7 +440,7 @@ footer img {
 }
 
 @media screen and (max-width: 768px) {
-  .arrows {
+  .slider-arrow {
     display: none;
   }
 
@@ -464,9 +469,5 @@ footer img {
     font-size: 25px;
   }
 }
-
-
-
-
 
 /* END MEDIA QUERIES */
