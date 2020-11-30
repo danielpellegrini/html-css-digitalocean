@@ -3,7 +3,7 @@ body {
 }
 
 .main-container {
-  max-width: 900px;
+  max-width: 1000px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -12,9 +12,10 @@ body {
 /* NAVBAR */
 .bl-navbar-default {
   background-color: transparent;
+  padding-top: 20px;
 }
 
-.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .sharky-row, .sharky {
+.navbar-collapse, .sharky-row, .sharky {
   float: right;
 }
 
@@ -28,7 +29,7 @@ body {
 }
 
 .bl-navbar-brand img {
-  height: 25px;
+  height: 20px;
   padding: 0;
 }
 
@@ -65,6 +66,11 @@ body {
   background-size: cover;
 }
 
+
+.first-section h1 {
+  font-size: 53px;
+}
+
 h1, .designed-for-section h6, .arrows:hover {
   color: #031B4E;
 }
@@ -74,19 +80,18 @@ main h1, .customers-service h1, footer h5 {
 }
 
 section h2 {
-  font-size: 16px;
-  line-height: 1.6;
-  color: rgba(255, 255, 255, 0.7);
+  font-size: 20px;
+  line-height: 1.4;
+  color: rgba(255, 255, 255, 0.8);
 }
 
 .get-started h3 {
   padding: 0 20px;
   margin: 0;
-  line-height: 1.2;
+  line-height: 1.4;
 }
 
-.get-started, .development-teams {
-  height: auto;
+.get-started section {
   width: 100%;
   border-radius: 5px;
   margin-top: 15px;
@@ -332,6 +337,10 @@ footer img {
     height: auto;
   }
 
+  .container {
+    width: 100%;
+  }
+
   .designed-for-section img {
     width: 50%;
   }
@@ -346,6 +355,10 @@ footer img {
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
+  .container {
+    width: 100%;
+  }
+
   .bl-navbar-toggle {
     display: block;
   }
